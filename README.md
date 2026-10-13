@@ -36,7 +36,9 @@ Edit **`src/config.js`**:
 | `quartersPhone`, `quartersEmail` | Quarters contact links. Empty values stay hidden. |
 | `unitAddress`, `unitMap` | Unit address and supplied location link. |
 | `quartersMap` | Supplied bungalow directions link. |
-| `quartersPhoto` | Optional actual exterior photograph, e.g. `/assets/quarters-exterior.jpg`. Put the image in `public/assets/`. |
+| `unitMapEmbed`, `quartersMapEmbed` | Verified Google Maps embed URLs for the real interactive location panels. No API key required. |
+| `quartersPhoto` | Exterior photograph for the homepage feature, already set to the supplied Maps photo. |
+| `staff` | Array of confirmed profiles. Each accepts `name`, `role`, optional `photo` and optional `description`. Empty shows a clear coming-soon state. |
 | `quartersPhotoAlt` | A useful description of the real photograph. |
 | `eligibility` | Confirmed rules on who can use the quarters. |
 | `bookingInformation` | Confirmed booking process, rates or contact instructions. |
@@ -48,15 +50,18 @@ Rebuild after editing. Blank contact/booking fields display an honest “details
 
 - Dark intro with one clock controlling typewriter lettering and progress; the wordmark moves into the header. Shown once per browser session; replay from the footer, or add `?intro=1`.
 - Circular light/dark sweep with the View Transitions API and a direct theme-change fallback. Theme preference persists locally.
-- Scroll-triggered animated road trace with timed copy reveal.
+- Real Google Maps property photographs replace the former road-trace section. Soft crossfades, slow zoom, staggered glass captions, thumbnail selection, keyboard navigation and touch swipes.
+- Automatic slideshows pause offscreen, in hidden tabs, during mouse hover and keyboard interaction. Dedicated play/pause controls and global motion preferences are supported.
+- Frosted glass navigation with grouped links, pill-shaped controls and a responsive staff directory.
 - Cascading illuminated focus cards controlled by “Connections in motion”.
-- Independent evening ambience switch for the quarters illustration.
-- Mobile menu, native accessible service dialogs, FAQ accordions, keyboard-operated destination tabs, and correct external map links.
+- The quarters page includes its own photographic tour, with portrait images displayed against matching blurred backgrounds.
+- Mobile menu, native accessible service dialogs, FAQ accordions, and keyboard-operated destination tabs.
+- Real interactive Google Maps views on both pages, using the two distinct place listings. Destination tabs crossfade between maps and update the text and directions link. Native map controls and Google attribution remain visible; Google Maps requires an internet connection. Inactive maps load only after first selection.
 - Reduced-motion support and an optional pause-animations control.
 
 ## Content and imagery
 
-See `CONTENT-SOURCES.md`. The room scene is an original, labelled illustration, not a photograph or a claim about the actual floor plan/furnishings. Replace it with a real photo using the configuration above. The property completion and A/C details were provided by the project owner. No room counts, rates, opening times, amenities beyond A/C, or eligibility rules were invented.
+See `CONTENT-SOURCES.md`. The bungalow, bedroom and veranda photographs come from the owner-supplied Google Maps listing. They are stored locally, with a visible source link in each gallery. The gallery preserves portrait compositions against a blurred copy of the same photograph. Photo paths, descriptions and order are editable in `src/gallery.js`. The property completion and A/C details were provided by the project owner. No room counts, rates, opening times, amenities beyond A/C, or eligibility rules were invented.
 
 The header, footer and browser tab use the official RDA logo image from the RDA Southern Province website, preserved in its original colours and white background. Both pages include the footer credit “Designed & Developed by FutureTech|NH”.
 
@@ -67,7 +72,9 @@ index.html            Unit page metadata and entry
 quarters/index.html   Quarters page metadata and entry
 src/config.js         Editable contacts and property information
 src/main.js           Page content and interactive behaviour
-src/visuals.js        Original SVG illustrations and icons
+src/gallery.js        Photo selection and accessible slideshow interactions
+src/maps.js           Real map views and destination switching
+src/visuals.js        Official logo, SVG illustrations and icons
 src/style.css         Layout, themes, animation and responsive styles
 public/assets/        Local photograph and fonts
 vercel.json           Vercel build and security-header settings
