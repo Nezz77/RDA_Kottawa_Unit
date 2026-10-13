@@ -1,0 +1,396 @@
+[
+  {
+    "id": "unawatuna",
+    "photos": [
+      {
+        "file": "unawatuna-1.jpg",
+        "url": "https://srilanka.travel//image/data/001/attractions/Main-Images/Unawatuna-1.jpg",
+        "source": "https://srilanka.travel/index.php?attraction_id=162&route=attractions%2Fattraction",
+        "title": "The curve of Unawatuna Bay",
+        "credit": "Source: Sri Lanka Tourism",
+        "photographer": null,
+        "alt": "Blue water and the palm-lined curve of Unawatuna Beach",
+        "width": 800,
+        "height": 400
+      },
+      {
+        "file": "unawatuna-2.jpg",
+        "url": "https://srilanka.travel//image/data/001/attractions/Unawatuna/Unawatuna-7.jpg",
+        "source": "https://srilanka.travel/index.php?attraction_id=162&route=attractions%2Fattraction",
+        "title": "Along the palm-lined shore",
+        "credit": "Source: Sri Lanka Tourism",
+        "photographer": null,
+        "alt": "Golden sand and coconut palms beside Unawatuna Beach",
+        "width": 600,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "id": "thalpe",
+    "photos": [
+      {
+        "file": "thalpe-1.jpg",
+        "url": "https://rtb.sgp1.cdn.digitaloceanspaces.com/media/bGElVZHZdgEkkMZuqsP0kgWU5yiB9UnqmYu6Oi4R.jpg",
+        "source": "https://southernsrilanka.lk/destination/thalpe-beach",
+        "title": "Thalpe rock pools",
+        "credit": "Source: Ruhunu Tourist Bureau",
+        "photographer": null,
+        "alt": "Rectangular coastal rock pools beside the sea at Thalpe",
+        "width": 872,
+        "height": 536
+      },
+      {
+        "file": "thalpe-2.jpg",
+        "url": "https://rtb.sgp1.cdn.digitaloceanspaces.com/media/JwExA39eoUTT3cH8n3pJ5VeVqLAEaxs27YsRbzOm.jpg",
+        "source": "https://southernsrilanka.lk/destination/thalpe-beach",
+        "title": "The green edge of the coast",
+        "credit": "Source: Ruhunu Tourist Bureau",
+        "photographer": null,
+        "alt": "Thalpe rock pools below a green palm-lined shoreline",
+        "width": 872,
+        "height": 536
+      }
+    ]
+  },
+  {
+    "id": "koggala-beach",
+    "photos": [
+      {
+        "file": "koggala-beach-1.jpg",
+        "url": "https://rtb.sgp1.cdn.digitaloceanspaces.com/media/TYqMBi1GzZ1tLqlrkPrgcvjwUElSNakqx70O25E3.jpg",
+        "source": "https://southernsrilanka.lk/destination/koggala-beach",
+        "title": "A walk along Koggala",
+        "credit": "Source: Ruhunu Tourist Bureau",
+        "photographer": null,
+        "alt": "Golden sand and breaking waves at Koggala Beach",
+        "width": 872,
+        "height": 536
+      },
+      {
+        "file": "koggala-beach-2.jpg",
+        "url": "https://rtb.sgp1.cdn.digitaloceanspaces.com/media/oclNHtNGUZAmS9joGnBoF4LGYkhrOJ2qT0IIpEt7.jpg",
+        "source": "https://southernsrilanka.lk/destination/koggala-beach",
+        "title": "A day by the ocean",
+        "credit": "Source: Ruhunu Tourist Bureau",
+        "photographer": null,
+        "alt": "Palm trees and beach loungers facing the ocean at Koggala",
+        "width": 872,
+        "height": 536
+      }
+    ]
+  },
+  {
+    "id": "koggala-lake",
+    "photos": [
+      {
+        "file": "koggala-lake-1.jpg",
+        "url": "https://www.trilanka.com/wp-content/uploads/2024/07/Boat1-1535x900-1.jpg",
+        "source": "https://www.trilanka.com/facilities/boat/",
+        "title": "Still waters at Koggala",
+        "credit": "Source: Tri Lanka",
+        "photographer": null,
+        "alt": "A small boat on Koggala Lake surrounded by green islands",
+        "width": 1535,
+        "height": 900
+      },
+      {
+        "file": "koggala-lake-2.jpg",
+        "url": "https://www.trilanka.com/wp-content/uploads/2024/07/Tri-Lanka-Boat-1535x900-1.jpg",
+        "source": "https://www.trilanka.com/facilities/boat/",
+        "title": "Out on the lake",
+        "credit": "Source: Tri Lanka",
+        "photographer": null,
+        "alt": "Visitors crossing Koggala Lake in a traditional outrigger boat",
+        "width": 1535,
+        "height": 900
+      }
+    ]
+  },
+  {
+    "id": "museum",
+    "photos": [
+      {
+        "file": "museum-1.jpg",
+        "url": "https://martinwickramasinghe.com/images/museum/Page/DSC01135.JPG",
+        "source": "https://martinwickramasinghe.com/museum.html",
+        "title": "The house among the trees",
+        "credit": "Source: Martin Wickramasinghe Trust",
+        "photographer": null,
+        "alt": "The traditional tiled-roof house in the Martin Wickramasinghe museum grounds",
+        "width": 1600,
+        "height": 1065
+      },
+      {
+        "file": "museum-2.jpg",
+        "url": "https://martinwickramasinghe.com/images/museum/Page/DSCF5819.JPG",
+        "source": "https://martinwickramasinghe.com/museum.html",
+        "title": "A quiet garden setting",
+        "credit": "Source: Martin Wickramasinghe Trust",
+        "photographer": null,
+        "alt": "A white museum building seen across shaded garden paths",
+        "width": 1600,
+        "height": 1071
+      }
+    ]
+  },
+  {
+    "id": "tea-estate",
+    "photos": [
+      {
+        "file": "tea-estate-1.jpg",
+        "url": "https://hermanteas.com/wp-content/uploads/2026/02/herman_teas_00008.webp",
+        "source": "https://hermanteas.com/",
+        "title": "From the tea garden",
+        "credit": "Source: Herman Teas",
+        "photographer": null,
+        "alt": "A tea picker among the tea bushes at Handunugoda Tea Estate",
+        "width": 1216,
+        "height": 808
+      },
+      {
+        "file": "tea-estate-2.jpg",
+        "url": "https://hermanteas.com/wp-content/uploads/2026/02/herman_teas_tea-tasting.webp",
+        "source": "https://hermanteas.com/",
+        "title": "An introduction to Ceylon tea",
+        "credit": "Source: Herman Teas",
+        "photographer": null,
+        "alt": "Visitors sampling tea at the Handunugoda tea tasting counter",
+        "width": 1600,
+        "height": 1068
+      }
+    ]
+  },
+  {
+    "id": "kanneliya",
+    "photos": [
+      {
+        "file": "kanneliya-1.jpg",
+        "url": "https://rtb.sgp1.cdn.digitaloceanspaces.com/media/A5srWsIl3GIvk1Z7rU7stJYeTyQ2IpaOcReQkuLR.jpg",
+        "source": "https://southernsrilanka.lk/destination/kanneliya-rain-forest",
+        "title": "Waterfall in the forest",
+        "credit": "Source: Ruhunu Tourist Bureau",
+        "photographer": null,
+        "alt": "Water cascading over rocks in Kanneliya rainforest",
+        "width": 872,
+        "height": 536
+      },
+      {
+        "file": "kanneliya-2.jpg",
+        "url": "https://rtb.sgp1.cdn.digitaloceanspaces.com/media/jNcydfFXgn27G1zJklCSFDKgdz876r82dQQBNKeO.jpg",
+        "source": "https://southernsrilanka.lk/destination/kanneliya-rain-forest",
+        "title": "Life beneath the canopy",
+        "credit": "Source: Ruhunu Tourist Bureau",
+        "photographer": null,
+        "alt": "A brightly coloured bird perched in the Kanneliya forest gallery",
+        "width": 872,
+        "height": 536
+      }
+    ]
+  },
+  {
+    "id": "river-park",
+    "photos": [
+      {
+        "file": "river-park-1.jpg",
+        "url": "https://rtb.sgp1.cdn.digitaloceanspaces.com/media/bJvHob6TlCcY7VBtrCYyDHKC3XuuLTEhZDP5dcSE.jpg",
+        "source": "https://southernsrilanka.lk/destination/holuwagoda-serene-river-park",
+        "title": "By the water",
+        "credit": "Source: Ruhunu Tourist Bureau",
+        "photographer": null,
+        "alt": "The white pavilion and landscaped waterfront at Holuwagoda Serene River Park",
+        "width": 872,
+        "height": 536
+      },
+      {
+        "file": "river-park-2.jpg",
+        "url": "https://southernsrilanka.lk/build/assets/holuwagodaS2-Bj6nJAWW.webp",
+        "source": "https://southernsrilanka.lk/about-us/holuwagoda-serene-river-park",
+        "title": "Evening reflections",
+        "credit": "Source: Ruhunu Tourist Bureau",
+        "photographer": null,
+        "alt": "The lit pavilion reflected in the water at Holuwagoda Serene River Park",
+        "width": 312,
+        "height": 215
+      }
+    ]
+  },
+  {
+    "id": "leisure-land",
+    "photos": [
+      {
+        "file": "leisure-land-1.jpg",
+        "url": "https://assets.tina.io/c90b20b1-1211-41dc-9ddc-4431e4eef78b/home/hero/pools-jungle-landscape-ground.jpg",
+        "source": "https://leisureland.lk/",
+        "title": "Pools among the palms",
+        "credit": "Source: Leisure Land",
+        "photographer": null,
+        "alt": "A landscaped swimming pool surrounded by tropical greenery at Leisure Land",
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "file": "leisure-land-2.jpg",
+        "url": "https://leisureland.lk/images/home/final-cta/aerial-drone-compact-view.jpg",
+        "source": "https://leisureland.lk/",
+        "title": "A view of the water park",
+        "credit": "Source: Leisure Land",
+        "photographer": null,
+        "alt": "An aerial view of pools and palms at Leisure Land",
+        "width": 1280,
+        "height": 960
+      }
+    ]
+  },
+  {
+    "id": "galle-fort",
+    "photos": [
+      {
+        "file": "galle-fort-1.jpg",
+        "url": "https://ccf.gov.lk/wp-content/uploads/2025/10/gal6.jpg",
+        "source": "https://ccf.gov.lk/heritage-sites/galle-fort/",
+        "title": "Galle from above",
+        "credit": "Source: Central Cultural Fund",
+        "photographer": null,
+        "alt": "Aerial view across Galle Fort and its coastal ramparts at sunset",
+        "width": 1200,
+        "height": 651
+      },
+      {
+        "file": "galle-fort-2.jpg",
+        "url": "https://ccf.gov.lk/wp-content/uploads/2025/10/gal4.jpg",
+        "source": "https://ccf.gov.lk/heritage-sites/galle-fort/",
+        "title": "The lighthouse by the sea",
+        "credit": "Source: Central Cultural Fund",
+        "photographer": null,
+        "alt": "Galle Lighthouse with coconut palms and the ocean beyond",
+        "width": 1000,
+        "height": 900
+      }
+    ]
+  },
+  {
+    "id": "hikkaduwa",
+    "photos": [
+      {
+        "file": "hikkaduwa-1.jpg",
+        "url": "https://rtb.sgp1.cdn.digitaloceanspaces.com/media/fb9Z1UfWceLmSnFJuGlQP4wNPt1laYz0SrX1CBIG.jpg",
+        "source": "https://southernsrilanka.lk/destination/hikkaduwa-beach",
+        "title": "The Hikkaduwa coastline",
+        "credit": "Source: Ruhunu Tourist Bureau",
+        "photographer": null,
+        "alt": "A palm-lined stretch of sandy beach at Hikkaduwa",
+        "width": 872,
+        "height": 536
+      },
+      {
+        "file": "hikkaduwa-2.jpg",
+        "url": "https://rtb.sgp1.cdn.digitaloceanspaces.com/media/K9qJ864uXcSwFtnyFuPdE0z1Pb7lHa2q0OG7Kx70.jpg",
+        "source": "https://southernsrilanka.lk/destination/hikkaduwa-beach",
+        "title": "Life in the shallows",
+        "credit": "Source: Ruhunu Tourist Bureau",
+        "photographer": null,
+        "alt": "A sea turtle photographed in shallow water at Hikkaduwa",
+        "width": 872,
+        "height": 536
+      }
+    ]
+  },
+  {
+    "id": "hiyare",
+    "photos": [
+      {
+        "file": "hiyare-1.jpg",
+        "url": "https://rtb.sgp1.cdn.digitaloceanspaces.com/media/rFHeyzDsgUe0x6JXCOXyEim3dHQuYAE8Mnmgwuwq.jpg",
+        "source": "https://southernsrilanka.lk/destination/hiyare-reservoir-forest",
+        "title": "A reservoir surrounded by forest",
+        "credit": "Source: Ruhunu Tourist Bureau",
+        "photographer": null,
+        "alt": "The wooded banks and calm reservoir at Hiyare",
+        "width": 872,
+        "height": 536
+      },
+      {
+        "file": "hiyare-2.jpg",
+        "url": "https://rtb.sgp1.cdn.digitaloceanspaces.com/media/1W166lBIjK6omJt10zsPfFnn1ebYN7AqyTIU2ChZ.jpg",
+        "source": "https://southernsrilanka.lk/destination/hiyare-reservoir-forest",
+        "title": "Into the green hills",
+        "credit": "Source: Ruhunu Tourist Bureau",
+        "photographer": null,
+        "alt": "Forest canopy and distant hills in the Hiyare forest gallery",
+        "width": 872,
+        "height": 536
+      }
+    ]
+  },
+  {
+    "id": "peace-pagoda",
+    "photos": [
+      {
+        "file": "peace-pagoda-1.jpg",
+        "url": "https://rtb.sgp1.cdn.digitaloceanspaces.com/media/Ed6OQ34Wgj5Iyb3yALDf8EdZhWqWHkdFnbxpQG1z.jpg",
+        "source": "https://southernsrilanka.lk/destination/unawatuna-rumassala-jungle-beach",
+        "title": "The pagoda at dusk",
+        "credit": "Source: Ruhunu Tourist Bureau",
+        "photographer": null,
+        "alt": "The white Japanese Peace Pagoda at Rumassala against the evening sky",
+        "width": 872,
+        "height": 536
+      },
+      {
+        "file": "peace-pagoda-2.jpg",
+        "url": "https://naturetrailsunawatuna.com/wp-content/uploads/2026/05/Roomassala.webp",
+        "source": "https://naturetrailsunawatuna.com/attractions/",
+        "title": "Above Rumassala",
+        "credit": "Source: Nature Trails Boutique Hotel",
+        "photographer": null,
+        "alt": "Aerial view of the Japanese Peace Pagoda among the green hills of Rumassala",
+        "width": 537,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "id": "jungle-beach",
+    "photos": [
+      {
+        "file": "jungle-beach-1.jpg",
+        "url": "https://rtb.sgp1.cdn.digitaloceanspaces.com/media/ZIoUOhiTqyYPYnv24lUKf4B8MPGABUzehjuTkr1V.jpg",
+        "source": "https://southernsrilanka.lk/destination/unawatuna-rumassala-jungle-beach",
+        "title": "The sheltered cove",
+        "credit": "Source: Ruhunu Tourist Bureau",
+        "photographer": null,
+        "alt": "A small sandy cove with green trees and clear water at Jungle Beach",
+        "width": 872,
+        "height": 536
+      },
+      {
+        "file": "jungle-beach-2.jpg",
+        "url": "https://rtb.sgp1.cdn.digitaloceanspaces.com/media/uZqUQaZkWNghN36TsrAWsyKbMRVdrgWJG17pKfIj.jpg",
+        "source": "https://southernsrilanka.lk/destination/unawatuna-rumassala-jungle-beach",
+        "title": "Where the forest meets the sea",
+        "credit": "Source: Ruhunu Tourist Bureau",
+        "photographer": null,
+        "alt": "Jungle Beach framed by palm trees and a wooded hillside",
+        "width": 872,
+        "height": 536
+      }
+    ]
+  },
+  {
+    "id": "puhulahena",
+    "photos": [
+      {
+        "file": "puhulahena-1.jpg",
+        "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfNOVb3o8bGzf6wTQHVQHxqxZ1boEAVMXmUtz8NgQrhqpEn9xq2cWZmJQ3-G6fwBucApy8I9Q6CLWjiHSE2i8o1KPbcbrChZh3ZYfF72qFc624ReE-fOZYKQRFYStq6YMz0XzBL0CJOyiK5=k-no",
+        "source": "https://www.google.com/maps/place/Puhulahena+naturel+pool/@6.0711187,80.3629347,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhBoVA30SLXHRkMaN6FgZDx2!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgrass-cs%2FAABkmLfNOVb3o8bGzf6wTQHVQHxqxZ1boEAVMXmUtz8NgQrhqpEn9xq2cWZmJQ3-G6fwBucApy8I9Q6CLWjiHSE2i8o1KPbcbrChZh3ZYfF72qFc624ReE-fOZYKQRFYStq6YMz0XzBL0CJOyiK5%3Dk-no!7i4080!8i3072!4m6!3m5!1s0x3ae16f00672b381d:0x67334fb519b18a87!8m2!3d6.0711187!4d80.3629347!16s%2Fg%2F11ygdmrr5b?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
+        "title": "A pool in a green setting",
+        "credit": "Trishan Fernando \u00b7 Google Maps",
+        "photographer": "Trishan Fernando",
+        "alt": "Puhulahena pool with a blue water slide surrounded by green hills and trees",
+        "width": 512,
+        "height": 386
+      }
+    ]
+  }
+]

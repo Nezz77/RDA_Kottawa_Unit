@@ -30,3 +30,122 @@ The interior and veranda contributor names were not independently captured; thei
 Both pages now use the actual Google Maps **Share → Embed a map** URLs for the owner-supplied locations. The unit is **RDA UNITE Kottawa**, at `6.094551, 80.305018`, address `38V4+R2C, Galle - Udugama Rd, Kottawa`; the quarters are **Green Forest Reserve - Kottawa RDA Circuit Bangalow**, at `6.0949044, 80.3052785`. They are separate nearby pins.
 
 The embed URLs are stored in `src/config.js`. Native Google place labels, controls and attribution remain intact; no map tiles are recreated or cached. The supplied outbound location links remain unchanged. Both pins and destination switching were checked in the local browser preview.
+
+## Places to visit — 13 October 2026
+
+All 19 agreed destinations are included. Google Maps pins and 10 road-route snapshots were observed in public Maps listings. Additional destination identities and embed URLs came from the primary tourism/venue sources listed in `src/place-map-sources.json`. The user chose existing verified data after the browser permission review blocked broader Google access. No extra travel figures or substitute photographs were invented.
+
+Origin: Green Forest Reserve – Kottawa RDA Circuit Bungalow, `6.0949044,80.3052785`. Driving times are historical snapshots, not live predictions.
+
+| Destination | Approx. road distance | Approx. drive | Photos |
+| --- | --- | --- | --- |
+| Galle Fort | 15.2 km | 23 min | 2 |
+| Rumassala · Jungle Beach | 13.9 km | 22 min | 2 |
+| Hikkaduwa Beach | 33.8 km | 47 min | 2 |
+| Kottawa Natural Pool | 1.6 km | 3 min | Awaiting verification |
+| Puhulahena Natural Pool | 11.6 km | 23 min | 1 |
+| Kottawa Reserve Forest | Awaiting verification | Awaiting verification | Awaiting verification |
+| Hiyare Reservoir & Forest | 7.2 km | 12 min | 2 |
+| Kekilla Rock | Awaiting verification | Awaiting verification | Awaiting verification |
+| Japanese Peace Pagoda | 14.1 km | 23 min | 2 |
+| Unawatuna Beach | 15.1 km | 25 min | 2 |
+| Thalpe Beach & Rock Pools | 19.1 km | 27 min | 2 |
+| Koggala Beach | Awaiting verification | Awaiting verification | 2 |
+| Koggala Lake & Madol Duwa | Awaiting verification | Awaiting verification | 2 |
+| Martin Wickramasinghe Folk Museum | Awaiting verification | Awaiting verification | 2 |
+| Handunugoda Tea Estate | Awaiting verification | Awaiting verification | 2 |
+| Kanneliya Rainforest | Awaiting verification | Awaiting verification | 2 |
+| Holuwagoda Serene River Park | Awaiting verification | Awaiting verification | 2 |
+| Leisure Land | Awaiting verification | Awaiting verification | 2 |
+| Sapphire Swim | 6.6 km | 16 min | Awaiting verification |
+
+### Photo provenance
+
+The photographs are real destination images retrieved from the sources below. Publisher attribution is distinguished from photographer attribution; no ownership or reuse license is claimed. The full image URLs, captions, alt text and dimensions are kept in `src/place-photos.json`. Google map controls and attribution remain native.
+
+**Galle Fort**
+
+- `galle-fort-1.jpg`: Galle from above. Source: Central Cultural Fund. [Source](https://ccf.gov.lk/heritage-sites/galle-fort/).
+- `galle-fort-2.jpg`: The lighthouse by the sea. Source: Central Cultural Fund. [Source](https://ccf.gov.lk/heritage-sites/galle-fort/).
+
+**Rumassala · Jungle Beach**
+
+- `jungle-beach-1.jpg`: The sheltered cove. Source: Ruhunu Tourist Bureau. [Source](https://southernsrilanka.lk/destination/unawatuna-rumassala-jungle-beach).
+- `jungle-beach-2.jpg`: Where the forest meets the sea. Source: Ruhunu Tourist Bureau. [Source](https://southernsrilanka.lk/destination/unawatuna-rumassala-jungle-beach).
+
+**Hikkaduwa Beach**
+
+- `hikkaduwa-1.jpg`: The Hikkaduwa coastline. Source: Ruhunu Tourist Bureau. [Source](https://southernsrilanka.lk/destination/hikkaduwa-beach).
+- `hikkaduwa-2.jpg`: Life in the shallows. Source: Ruhunu Tourist Bureau. [Source](https://southernsrilanka.lk/destination/hikkaduwa-beach).
+
+**Puhulahena Natural Pool**
+
+- `puhulahena-1.jpg`: A pool in a green setting. Trishan Fernando · Google Maps. [Source](https://www.google.com/maps/place/Puhulahena+naturel+pool/@6.0711187,80.3629347,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhBoVA30SLXHRkMaN6FgZDx2!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgrass-cs%2FAABkmLfNOVb3o8bGzf6wTQHVQHxqxZ1boEAVMXmUtz8NgQrhqpEn9xq2cWZmJQ3-G6fwBucApy8I9Q6CLWjiHSE2i8o1KPbcbrChZh3ZYfF72qFc624ReE-fOZYKQRFYStq6YMz0XzBL0CJOyiK5%3Dk-no!7i4080!8i3072!4m6!3m5!1s0x3ae16f00672b381d:0x67334fb519b18a87!8m2!3d6.0711187!4d80.3629347!16s%2Fg%2F11ygdmrr5b?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D).
+
+**Hiyare Reservoir & Forest**
+
+- `hiyare-1.jpg`: A reservoir surrounded by forest. Source: Ruhunu Tourist Bureau. [Source](https://southernsrilanka.lk/destination/hiyare-reservoir-forest).
+- `hiyare-2.jpg`: Into the green hills. Source: Ruhunu Tourist Bureau. [Source](https://southernsrilanka.lk/destination/hiyare-reservoir-forest).
+
+**Japanese Peace Pagoda**
+
+- `peace-pagoda-1.jpg`: The pagoda at dusk. Source: Ruhunu Tourist Bureau. [Source](https://southernsrilanka.lk/destination/unawatuna-rumassala-jungle-beach).
+- `peace-pagoda-2.jpg`: Above Rumassala. Source: Nature Trails Boutique Hotel. [Source](https://naturetrailsunawatuna.com/attractions/).
+
+**Unawatuna Beach**
+
+- `unawatuna-1.jpg`: The curve of Unawatuna Bay. Source: Sri Lanka Tourism. [Source](https://srilanka.travel/index.php?attraction_id=162&route=attractions%2Fattraction).
+- `unawatuna-2.jpg`: Along the palm-lined shore. Source: Sri Lanka Tourism. [Source](https://srilanka.travel/index.php?attraction_id=162&route=attractions%2Fattraction).
+
+**Thalpe Beach & Rock Pools**
+
+- `thalpe-1.jpg`: Thalpe rock pools. Source: Ruhunu Tourist Bureau. [Source](https://southernsrilanka.lk/destination/thalpe-beach).
+- `thalpe-2.jpg`: The green edge of the coast. Source: Ruhunu Tourist Bureau. [Source](https://southernsrilanka.lk/destination/thalpe-beach).
+
+**Koggala Beach**
+
+- `koggala-beach-1.jpg`: A walk along Koggala. Source: Ruhunu Tourist Bureau. [Source](https://southernsrilanka.lk/destination/koggala-beach).
+- `koggala-beach-2.jpg`: A day by the ocean. Source: Ruhunu Tourist Bureau. [Source](https://southernsrilanka.lk/destination/koggala-beach).
+
+**Koggala Lake & Madol Duwa**
+
+- `koggala-lake-1.jpg`: Still waters at Koggala. Source: Tri Lanka. [Source](https://www.trilanka.com/facilities/boat/).
+- `koggala-lake-2.jpg`: Out on the lake. Source: Tri Lanka. [Source](https://www.trilanka.com/facilities/boat/).
+
+**Martin Wickramasinghe Folk Museum**
+
+- `museum-1.jpg`: The house among the trees. Source: Martin Wickramasinghe Trust. [Source](https://martinwickramasinghe.com/museum.html).
+- `museum-2.jpg`: A quiet garden setting. Source: Martin Wickramasinghe Trust. [Source](https://martinwickramasinghe.com/museum.html).
+
+**Handunugoda Tea Estate**
+
+- `tea-estate-1.jpg`: From the tea garden. Source: Herman Teas. [Source](https://hermanteas.com/).
+- `tea-estate-2.jpg`: An introduction to Ceylon tea. Source: Herman Teas. [Source](https://hermanteas.com/).
+
+**Kanneliya Rainforest**
+
+- `kanneliya-1.jpg`: Waterfall in the forest. Source: Ruhunu Tourist Bureau. [Source](https://southernsrilanka.lk/destination/kanneliya-rain-forest).
+- `kanneliya-2.jpg`: Life beneath the canopy. Source: Ruhunu Tourist Bureau. [Source](https://southernsrilanka.lk/destination/kanneliya-rain-forest).
+
+**Holuwagoda Serene River Park**
+
+- `river-park-1.jpg`: By the water. Source: Ruhunu Tourist Bureau. [Source](https://southernsrilanka.lk/destination/holuwagoda-serene-river-park).
+- `river-park-2.jpg`: Evening reflections. Source: Ruhunu Tourist Bureau. [Source](https://southernsrilanka.lk/about-us/holuwagoda-serene-river-park).
+
+**Leisure Land**
+
+- `leisure-land-1.jpg`: Pools among the palms. Source: Leisure Land. [Source](https://leisureland.lk/).
+- `leisure-land-2.jpg`: A view of the water park. Source: Leisure Land. [Source](https://leisureland.lk/).
+
+### Pin and access details
+
+- Kottawa forest: the listed pin is inside the reserve. The 8.3 km / 18 min route to that interior pin is deliberately not presented as a visitor-entrance estimate.
+- Kekilla Rock: map listing is verified; public trail access and driving approach still require confirmation.
+- Jungle Beach: estimate reaches the beach-side road location, with the final footpath excluded.
+- Hikkaduwa: 33.8 km / 47 min uses the recommended coastal route; an expressway alternative differs.
+- Koggala Lake: map and directions use Boat Safari at Koggala Lake No 07 (5.9980869,80.3226919), linked by the KK Collection experience page; this is an access point, not the lake centre or Madol Duwa. The photos are destination images from Tri Lanka, not a promise of a particular operator or boat.
+- Puhulahena: directions preserve the user-supplied pin (6.0713083,80.3643358). Its single photo was previously captured from the nearby same-name swimming facility listing (6.0711187,80.3629347), credited to Trishan Fernando. The entrance distinction is stated in the UI.
+- The official Unawatuna/Rumassala tourism page embeds Rumassala, so the Unawatuna destination deliberately uses its separately verified beach coordinates instead of that regional embed.
+- The second river-park image is a small official 312 × 215 photograph; the viewer contains it against a matching blurred background instead of stretching it to fill.
+
+Current hours, prices, admission, supervised swimming and booking availability are not asserted.

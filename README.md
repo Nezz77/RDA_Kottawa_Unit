@@ -57,6 +57,8 @@ Rebuild after editing. Blank contact/booking fields display an honest “details
 - The quarters page includes its own photographic tour, with portrait images displayed against matching blurred backgrounds.
 - Mobile menu, native accessible service dialogs, FAQ accordions, and keyboard-operated destination tabs.
 - Real interactive Google Maps views on both pages, using the two distinct place listings. Destination tabs crossfade between maps and update the text and directions link. Native map controls and Google attribution remain visible; Google Maps requires an internet connection. Inactive maps load only after first selection.
+- A 19-place destination explorer on `/quarters/#places`, with category filters, search, a six-card preview and expansion, local photographs, source credits, keyboard and touch gallery controls, and a selected-place Google Maps view.
+- Ten verified driving snapshots from the bungalow. Routes awaiting verification link to current Google directions without inventing a number.
 - Reduced-motion support and an optional pause-animations control.
 
 ## Content and imagery
@@ -74,6 +76,11 @@ src/config.js         Editable contacts and property information
 src/main.js           Page content and interactive behaviour
 src/gallery.js        Photo selection and accessible slideshow interactions
 src/maps.js           Real map views and destination switching
+src/places-data.js    Destination descriptions, pins and route snapshots
+src/place-photos.json Verified photo metadata, captions and source credits
+src/place-map-sources.json Source-provided map embeds
+src/places.js         Destination explorer and gallery interactions
+src/places.css        Explorer layout, glass controls and responsive styles
 src/visuals.js        Official logo, SVG illustrations and icons
 src/style.css         Layout, themes, animation and responsive styles
 public/assets/        Local photograph and fonts
@@ -81,3 +88,13 @@ vercel.json           Vercel build and security-header settings
 ```
 
 This project was built and checked locally. It has not been pushed to GitHub or deployed to Vercel.
+
+## Nearby places guide
+
+The quarters page includes all 19 agreed destinations. Edit names, categories, descriptions, coordinates and travel snapshots in `src/places-data.js`. Distances are **road distances from 6.0949044,80.3052785**, the bungalow in Kottawa near Galle. They are not straight-line distances, live traffic, or distances from Colombo-area Kottawa.
+
+The gallery uses **29 local photographs across 15 destinations**. Add verified photographs for Kottawa Natural Pool, Kottawa Reserve Forest, Kekilla Rock and Sapphire Swim to `public/assets/places/`, then add their metadata under the matching `id` in `src/place-photos.json`. Until then they have a clear photo-pending state and a link to their real map listing. A one-photo destination remains usable with disabled previous/next controls.
+
+Ten places have verified approximate driving distance/time snapshots dated 13 October 2026. Nine remaining routes show **Check distance & time** and provide live directions. `km: null, minutes: null` is intentional. In particular, the Kottawa forest's interior map pin must not be presented as a verified visitor entrance. Koggala Lake directions point to a sourced boat access location, and exclude boat travel. The user chose to use existing verified data when broader Google browser access was unavailable.
+
+Photo/map switching creates only the selected destination's iframe. All 19 places have their own map view and outbound directions. Photos fade between slides; motion pauses offscreen, on hover/focus, with the global pause setting, or with a reduced-motion preference. Images retain contributor/publisher source links. See `CONTENT-SOURCES.md` for provenance and remaining content gaps.

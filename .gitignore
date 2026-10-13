@@ -1,12 +1,46 @@
+# Dependencies
 node_modules/
+
+# Production builds
 dist/
 dist-ssr/
 .vercel/
-.DS_Store
-*.local
+.turbo/
+.cache/
+
+# Environment and sensitive keys
 .env
 .env.*
+*.env
+*.local
+*.pem
+*.key
+*.cert
+*.crt
 !.env.example
+
+# Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# IDE and Editor files
 .idea/
 .vscode/
+*.sublime-project
+*.sublime-workspace
+*.sw?
+*.swo
+*.swn
+*~
