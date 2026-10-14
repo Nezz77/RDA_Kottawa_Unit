@@ -1,8 +1,11 @@
+import { inject } from '@vercel/analytics';
 import { site } from './config.js';
 import { photoGallery, initGalleries } from './gallery.js';
 import { mapView, initMaps } from './maps.js';
 import { placesSection, initPlaces } from './places.js';
 import { icon, mark, roomScene, serviceArt } from './visuals.js';
+
+inject();
 
 const isQuarters = document.body.dataset.page === 'quarters';
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
