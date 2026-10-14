@@ -1,5 +1,6 @@
 // Add confirmed contact details here. Blank values stay hidden in the website.
 export const site = {
+  url: 'https://rda-kottawa-unit.vercel.app',
   name: 'RDA Kottawa',
   unitName: 'Kottawa Unit',
   unitPhone: '',

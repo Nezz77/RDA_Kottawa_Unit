@@ -2,6 +2,12 @@
 
 A custom, responsive two-page website for RDA Kottawa Unit and its newly completed government quarters. Built with Vite, native JavaScript, CSS and SVG. No backend, API key or database is required.
 
+## 🌐 Live Website
+
+The website is deployed and live on the web:
+- **Main Website:** [https://rda-kottawa-unit.vercel.app](https://rda-kottawa-unit.vercel.app)
+- **Government Quarters:** [https://rda-kottawa-unit.vercel.app/quarters/](https://rda-kottawa-unit.vercel.app/quarters/)
+
 ## Run locally
 
 Use Node.js 22.12 or later.
@@ -18,13 +24,11 @@ npm run build
 npm run preview
 ```
 
-## Deploy to Vercel
+## Deployment
 
-Import this folder's Git repository into Vercel and select the Vite framework preset. The included `vercel.json` sets the build command to `npm run build` and output directory to `dist`. No environment variables are required. Both `/` and `/quarters/` are built as separate HTML entries, so direct links and page refreshes work without an SPA rewrite.
+The website is deployed on Vercel at **https://rda-kottawa-unit.vercel.app**.
 
-Alternatively, run `npx vercel` from this folder after signing into your Vercel account. Publish to production only when you are ready with `npx vercel --prod`.
-
-Deployment guidance: https://vercel.com/docs/frameworks/frontend/vite
+The repository is configured for automatic deployment via Vercel using the Vite framework preset. The included `vercel.json` sets the build command to `npm run build` and output directory to `dist`. No environment variables are required. Both `/` and `/quarters/` are built as separate HTML entries, so direct links and page refreshes work without an SPA rewrite.
 
 ## Add the details later
 

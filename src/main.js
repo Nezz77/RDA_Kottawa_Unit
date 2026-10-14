@@ -63,8 +63,8 @@ ${placesSection()}
 <section class="faq section-pad" id="before-you-visit">${sectionLabel('04', 'BEFORE YOU VISIT')}<div class="faq-layout"><div><h2>A few useful<br> <span class="serif">things to know.</span></h2><p>Plan your visit with the latest details from the unit.</p></div><div class="faq-list">${[
     ['Are the quarters completed?', 'Yes. The newly built RDA Kottawa government quarters are fully completed.'],
     ['Is air conditioning available?', 'Yes. The government quarters include air conditioning.'],
-    ['Who can use the quarters?', site.eligibility || 'Any RDA worker can book the quaters.A fee will be charged.'],
-    ['How do I arrange a stay?', site.bookingInformation || 'Booking arrangements happen directly through RDA Head Office'],
+    ['Who can use the quarters?', site.eligibility || 'Any RDA worker can book the quarters. A fee will be charged.'],
+    ['How do I arrange a stay?', site.bookingInformation || 'Booking arrangements happen directly through RDA Head Office.'],
     ['Where are the quarters located?', 'Find “Green Forest Reserve – Kottawa RDA Circuit Bungalow” on Google Maps using the directions link below.'],
     ...(site.checkInInformation ? [['What should I know about arrival?', site.checkInInformation]] : []),
   ].map(([q, a], i) => `<details ${i === 0 ? 'open' : ''}><summary><span>${q}</span>${icon('plus')}</summary><div>${escape(a)}</div></details>`).join('')}</div></div></section>${visit}</main>`;

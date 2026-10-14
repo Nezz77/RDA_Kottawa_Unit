@@ -2,6 +2,7 @@
   "name": "rda-kottawa",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://rda-kottawa-unit.vercel.app",
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",

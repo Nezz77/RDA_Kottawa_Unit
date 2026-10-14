@@ -1,6 +1,7 @@
 # Content sources and asset notes
 
-Checked 12 October 2026.
+Live site: https://rda-kottawa-unit.vercel.app  
+Checked 14 October 2026.
 
 - **RDA official website:** https://www.rda.gov.lk/ — national responsibility for road-network development and maintenance; orange branding. The site's stylesheet uses `#FE9A00` prominently. This is a derived design palette, not a formal brand-guideline specification.
 - **Photograph:** https://www.rda.gov.lk/images/slider/Extension_of_Southern_Expressway_During_Construction.jpg — the local file `public/assets/expressway.jpg`. Captioned as Southern Expressway / RDA image archive; never described as a photograph of the Kottawa Unit. Source copyright remains with its owner. Confirm organizational permission for publication if required.
