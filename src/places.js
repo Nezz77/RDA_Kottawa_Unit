@@ -48,7 +48,7 @@ export function initPlaces({ reducedMotion, isMotionPaused }) {
     if (playButton.getAttribute('aria-pressed') !== String(playing)) {
       playButton.setAttribute('aria-pressed', String(playing));
       playButton.setAttribute('aria-label', playing ? 'Pause destination slideshow' : 'Play destination slideshow');
-      playButton.innerHTML = playing ? icon('pause') : '<span aria-hidden="true">▷</span>';
+      playButton.innerHTML = playing ? icon('pause') : icon('play');
     }
     root.classList.toggle('places-motion-active', active);
     if (!active) return;

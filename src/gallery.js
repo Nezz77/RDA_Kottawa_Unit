@@ -16,7 +16,7 @@ export function photoGallery({ compact = false, map }) {
         <div class="gallery-story glass-dark"><span class="micro">0${i + 1} / ${photo.label}</span><h3>${photo.title}</h3><p>${photo.text}</p></div>
       </div>`).join('')}
       <span class="gallery-location glass-dark">${icon('pin')} GREEN FOREST RESERVE</span>
-      <div class="gallery-controls glass-dark"><button class="gallery-previous" aria-label="Previous photograph">${icon('arrow')}</button><span class="gallery-count" aria-hidden="true">01 / 03</span><button class="gallery-next" aria-label="Next photograph">${icon('arrow')}</button><span class="control-divider"></span><button class="gallery-play" aria-label="Play slideshow" aria-pressed="false"><span class="play-symbol" aria-hidden="true">▷</span></button></div>
+      <div class="gallery-controls glass-dark"><button class="gallery-previous" aria-label="Previous photograph">${icon('arrow')}</button><span class="gallery-count" aria-hidden="true">01 / 03</span><button class="gallery-next" aria-label="Next photograph">${icon('arrow')}</button><span class="control-divider"></span><button class="gallery-play" aria-label="Play slideshow" aria-pressed="false">${icon('play')}</button></div>
       <div class="gallery-progress" aria-hidden="true"><span></span></div>
     </div>
     <div class="gallery-bottom"><div class="gallery-thumbnails" role="group" aria-label="Choose a photograph">${photographs.map((photo, i) => `<button class="gallery-thumb" data-photo="${i}" aria-label="Show ${photo.label.toLowerCase()}" aria-pressed="${i === 0}"><img src="${photo.src}" alt="" loading="lazy" /><span><small>0${i + 1}</small>${photo.label}</span></button>`).join('')}</div><a class="gallery-source" href="${map}" target="_blank" rel="noopener noreferrer">PHOTOS VIA GOOGLE MAPS ${icon('northeast')}</a></div>
@@ -40,7 +40,7 @@ export function initGalleries({ reducedMotion, isMotionPaused }) {
       if (play.getAttribute('aria-pressed') !== String(requested)) {
         play.setAttribute('aria-pressed', String(requested));
         play.setAttribute('aria-label', requested ? 'Pause slideshow' : 'Play slideshow');
-        play.innerHTML = requested ? icon('pause') : '<span class="play-symbol" aria-hidden="true">▷</span>';
+        play.innerHTML = requested ? icon('pause') : icon('play');
       }
       if (!active) return;
       progress.animate([{ transform:'scaleX(0)' }, { transform:'scaleX(1)' }], { duration:6500, fill:'forwards' });
