@@ -42,11 +42,11 @@ Origin: Green Forest Reserve – Kottawa RDA Circuit Bungalow, `6.0949044,80.305
 | Galle Fort | 15.2 km | 23 min | 2 |
 | Rumassala · Jungle Beach | 13.9 km | 22 min | 2 |
 | Hikkaduwa Beach | 33.8 km | 47 min | 2 |
-| Kottawa Natural Pool | 1.6 km | 3 min | Awaiting verification |
+| Kottawa Natural Pool | 1.6 km | 3 min | 2 |
 | Puhulahena Natural Pool | 11.6 km | 23 min | 1 |
-| Kottawa Reserve Forest | Awaiting verification | Awaiting verification | Awaiting verification |
+| Kottawa Reserve Forest | Awaiting verification | Awaiting verification | 2 |
 | Hiyare Reservoir & Forest | 7.2 km | 12 min | 2 |
-| Kekilla Rock | Awaiting verification | Awaiting verification | Awaiting verification |
+| Kekilla Rock | Awaiting verification | Awaiting verification | 1 |
 | Japanese Peace Pagoda | 14.1 km | 23 min | 2 |
 | Unawatuna Beach | 15.1 km | 25 min | 2 |
 | Thalpe Beach & Rock Pools | 19.1 km | 27 min | 2 |
@@ -57,7 +57,7 @@ Origin: Green Forest Reserve – Kottawa RDA Circuit Bungalow, `6.0949044,80.305
 | Kanneliya Rainforest | Awaiting verification | Awaiting verification | 2 |
 | Holuwagoda Serene River Park | Awaiting verification | Awaiting verification | 2 |
 | Leisure Land | Awaiting verification | Awaiting verification | 2 |
-| Sapphire Swim | 6.6 km | 16 min | Awaiting verification |
+| Sapphire Swim | 6.6 km | 16 min | 1 |
 
 ### Photo provenance
 
@@ -149,3 +149,27 @@ The photographs are real destination images retrieved from the sources below. Pu
 - The second river-park image is a small official 312 × 215 photograph; the viewer contains it against a matching blurred background instead of stretching it to fill.
 
 Current hours, prices, admission, supervised swimming and booking availability are not asserted.
+
+### Remaining destination images added — 13 October 2026
+
+All 19 destinations now have imagery, with 35 locally stored photographs in total.
+
+**Kottawa Natural Pool**
+
+- `kottawa-pool-1.jpg`: The pool beneath the trees · 2013. Source: Unawatuna Beach travel journal · 2013. [Source](https://unawatuna-beach.com/en/kottawa-forest-swimming-pool.html).
+- `kottawa-pool-2.jpg`: A forest setting · 2013. Source: Unawatuna Beach travel journal · 2013. [Source](https://unawatuna-beach.com/en/kottawa-forest-swimming-pool.html).
+
+**Kottawa Reserve Forest**
+
+- `kottawa-forest-1.jpg`: Under the canopy. Source: Sri Lanka Eco Tourism. [Source](https://www.srilankaecotourism.lk/kottawa-arboretum-walking-tour.php).
+- `kottawa-forest-2.jpg`: The living rainforest. Source: Sri Lanka Eco Tourism. [Source](https://www.srilankaecotourism.lk/kottawa-arboretum-walking-tour.php).
+
+**Kekilla Rock**
+
+- `kekilla-1.webp`: Surrounding Kottawa forest. Source: BBC Sinhala · 2024. [Source](https://www.bbc.com/sinhala/articles/clky9rxr7n9o).
+
+**Sapphire Swim**
+
+- `sapphire-1.jpg`: A pool among the palms. Source: Sapphire Swim. [Source](https://www.facebook.com/61551474026743/posts/122221932674049134/).
+
+Kottawa pool images document a 2013 visit; their dates are visible in both the card and gallery. Forest photographs show the arboretum within the reserve. Kekilla’s image shows surrounding forest, not the summit; that distinction is visible on the card and gallery. Sapphire Swim’s public Facebook post supplies the venue image. Original image URLs and dimensions are retained in `src/place-photos.json`. Existing motion and source links are preserved.

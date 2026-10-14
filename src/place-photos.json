@@ -385,11 +385,99 @@
         "url": "https://lh3.googleusercontent.com/grass-cs/AABkmLfNOVb3o8bGzf6wTQHVQHxqxZ1boEAVMXmUtz8NgQrhqpEn9xq2cWZmJQ3-G6fwBucApy8I9Q6CLWjiHSE2i8o1KPbcbrChZh3ZYfF72qFc624ReE-fOZYKQRFYStq6YMz0XzBL0CJOyiK5=k-no",
         "source": "https://www.google.com/maps/place/Puhulahena+naturel+pool/@6.0711187,80.3629347,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhBoVA30SLXHRkMaN6FgZDx2!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgrass-cs%2FAABkmLfNOVb3o8bGzf6wTQHVQHxqxZ1boEAVMXmUtz8NgQrhqpEn9xq2cWZmJQ3-G6fwBucApy8I9Q6CLWjiHSE2i8o1KPbcbrChZh3ZYfF72qFc624ReE-fOZYKQRFYStq6YMz0XzBL0CJOyiK5%3Dk-no!7i4080!8i3072!4m6!3m5!1s0x3ae16f00672b381d:0x67334fb519b18a87!8m2!3d6.0711187!4d80.3629347!16s%2Fg%2F11ygdmrr5b?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D",
         "title": "A pool in a green setting",
-        "credit": "Trishan Fernando \u00b7 Google Maps",
+        "credit": "Trishan Fernando · Google Maps",
         "photographer": "Trishan Fernando",
         "alt": "Puhulahena pool with a blue water slide surrounded by green hills and trees",
         "width": 512,
         "height": 386
+      }
+    ]
+  },
+  {
+    "id": "kottawa-pool",
+    "photos": [
+      {
+        "file": "kottawa-pool-1.jpg",
+        "url": "https://unawatuna-beach.com/wp-content/uploads/2013/09/Kottawa-Forst-Pool-04.jpg",
+        "source": "https://unawatuna-beach.com/en/kottawa-forest-swimming-pool.html",
+        "title": "The pool beneath the trees · 2013",
+        "credit": "Source: Unawatuna Beach travel journal · 2013",
+        "photographer": null,
+        "alt": "The rectangular Kottawa forest swimming pool surrounded by trees, photographed in 2013",
+        "width": 800,
+        "height": 600,
+        "context": "2013 photograph"
+      },
+      {
+        "file": "kottawa-pool-2.jpg",
+        "url": "https://unawatuna-beach.com/wp-content/uploads/2013/09/Kottawa-Forst-Pool-12.jpg",
+        "source": "https://unawatuna-beach.com/en/kottawa-forest-swimming-pool.html",
+        "title": "A forest setting · 2013",
+        "credit": "Source: Unawatuna Beach travel journal · 2013",
+        "photographer": null,
+        "alt": "The tree-lined Kottawa natural pool and its paved edge, photographed in 2013",
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "id": "kottawa-forest",
+    "photos": [
+      {
+        "file": "kottawa-forest-1.jpg",
+        "url": "https://www.srilankaecotourism.lk/images/itineraries/kottawa-arboretum-walking-tour/kottawa-arboretum-walking-tour-01.jpg",
+        "source": "https://www.srilankaecotourism.lk/kottawa-arboretum-walking-tour.php",
+        "title": "Under the canopy",
+        "credit": "Source: Sri Lanka Eco Tourism",
+        "photographer": null,
+        "alt": "A leaf-covered walking trail through dense greenery in Kottawa Arboretum",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "file": "kottawa-forest-2.jpg",
+        "url": "https://www.srilankaecotourism.lk/images/itineraries/kottawa-arboretum-walking-tour/kottawa-arboretum-walking-tour-05.jpg",
+        "source": "https://www.srilankaecotourism.lk/kottawa-arboretum-walking-tour.php",
+        "title": "The living rainforest",
+        "credit": "Source: Sri Lanka Eco Tourism",
+        "photographer": null,
+        "alt": "Fallen timber and thick tropical vegetation beside a path in Kottawa Arboretum",
+        "width": 800,
+        "height": 600
+      }
+    ]
+  },
+  {
+    "id": "kekilla",
+    "photos": [
+      {
+        "file": "kekilla-1.webp",
+        "url": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/fb08/live/d49c20e0-39f4-11ef-a044-9d4367d5b599.jpg.webp",
+        "source": "https://www.bbc.com/sinhala/articles/clky9rxr7n9o",
+        "title": "Surrounding Kottawa forest",
+        "context": "Surrounding forest",
+        "credit": "Source: BBC Sinhala · 2024",
+        "photographer": null,
+        "alt": "Root-covered path in the surrounding Kottawa forest",
+        "width": 640,
+        "height": 480
+      }
+    ]
+  },
+  {
+    "id": "sapphire",
+    "photos": [
+      {
+        "file": "sapphire-1.jpg",
+        "url": "https://z-p3-scontent.fcmb9-1.fna.fbcdn.net/v/t39.99422-6/758427093_900345255925189_3186204840833423189_n.png?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=p600x600&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=b96d88&_nc_ohc=-w3--sbr3mIQ7kNvwFf8nSU&_nc_oc=Adpsf5HXmZCI8SBjuHOZwIAAigO2To52-e_WKQUPICjt_042nJTXN3rFXPLB_k1a3YA&_nc_zt=14&_nc_ht=z-p3-scontent.fcmb9-1.fna&_nc_gid=hv5yLnR8qHsClETLUC4p-g&_nc_ss=7020f&oh=00_AQPkJMwZqLeWgtozhQMGvZnQH7vZfGoYIjy8O0Ru_Ngw9Q&oe=6AD3F241",
+        "source": "https://www.facebook.com/61551474026743/posts/122221932674049134/",
+        "title": "A pool among the palms",
+        "credit": "Source: Sapphire Swim",
+        "photographer": null,
+        "alt": "Blue swimming pools beside tropical palms and a shaded pavilion at Sapphire Swim",
+        "width": 800,
+        "height": 600
       }
     ]
   }

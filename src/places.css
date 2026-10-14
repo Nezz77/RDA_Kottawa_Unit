@@ -19,3 +19,6 @@
 .place-map-frame iframe{opacity:0;transition:opacity .65s ease}.place-map-frame iframe.is-loaded{opacity:1}
 @media(prefers-reduced-motion:reduce){.place-map-frame iframe{transition:none}}
 .motion-paused .place-map-frame iframe{transition:none}
+
+.place-card-photo-context{position:absolute;bottom:13px;left:13px;max-width:calc(100% - 64px);border-radius:999px;padding:6px 9px;font-size:7px;line-height:1.4;letter-spacing:.2px;text-align:left}
+@media(max-width:680px){.place-card-photo-context{bottom:10px;left:9px;max-width:calc(100% - 48px);font-size:6px;padding:5px 7px}}
