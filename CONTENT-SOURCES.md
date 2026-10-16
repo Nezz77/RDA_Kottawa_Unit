@@ -175,3 +175,18 @@ All 19 destinations now have imagery, with 35 locally stored photographs in tota
 - `sapphire-1.jpg`: A pool among the palms. Source: Sapphire Swim. [Source](https://www.facebook.com/61551474026743/posts/122221932674049134/).
 
 Kottawa pool images document a 2013 visit; their dates are visible in both the card and gallery. Forest photographs show the arboretum within the reserve. Kekilla’s image shows surrounding forest, not the summit; that distinction is visible on the card and gallery. Sapphire Swim’s public Facebook post supplies the venue image. Original image URLs and dimensions are retained in `src/place-photos.json`. Existing motion and source links are preserved.
+
+## Owner-supplied villa room tour — 17 October 2026
+
+The owner provided 17 photographs in `Greenforest_villa_RDA` and confirmed **two double bedrooms, each with an attached bathroom, plus a living area and kitchen**. Dining furniture, sink/worktop and garden seating are visible in the supplied photographs. No occupancy limit, appliance inventory, hot-water availability or new booking terms are inferred.
+
+The originals remain untouched. WebP copies and 640px responsive variants are stored in `public/assets/villa/`. Descriptions and the photographic sequence live in `src/villa-tour.js`; small captions identify each space. The `back.jpeg` image shows the rear kitchen sink/worktop and is described as the kitchen area, not as an exterior view.
+
+- Arrival and homepage feature: `frontview.jpeg`.
+- Living and dining: `livingarea.jpeg`, `livingarea2.jpeg`.
+- Kitchen: `back.jpeg`.
+- Bedroom 1 and its bathroom: `bedroom1.jpeg`, `bathroom1.jpeg`, `bathroom1-2.jpeg`.
+- Bedroom 2 and its bathroom: `bedroom2.jpeg`, `bathroom2-1.jpeg`, `bathroom2-2.jpeg`.
+- Garden and exterior: `outside1.jpeg` through `outside7.jpeg`.
+
+The quarters hero now uses the owner’s front-view photograph. The previous A/C illustration is replaced by the room journal; A/C remains in the property description, amenity facts and FAQ. The homepage’s existing three-photo Maps gallery retains its original attribution. The room journal has an active chapter index, natural vertical scrolling, a horizontal garden strip, and a keyboard/touch photo viewer. It respects reduced motion and the website’s global animation setting.

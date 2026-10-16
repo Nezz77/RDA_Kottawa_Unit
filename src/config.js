@@ -16,8 +16,8 @@ export const site = {
   quartersMap: 'https://maps.app.goo.gl/ibSGpVBKes2zemxp9',
   quartersMapEmbed: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1983.6336402530892!2d80.3047551!3d6.094655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae16f0045afb363%3A0x82131a704fa669a!2sGreen%20Forest%20Reserve%20-%20Kottawa%20RDA%20Circuit%20Bangalow!5e0!3m2!1sen!2slk!4v1791848090034!5m2!1sen!2slk',
   quartersCoordinates: { lat: 6.0949044, lng: 80.3052785 },
-  // Actual exterior photo from the supplied Google Maps property listing.
-  quartersPhoto: '/assets/quarters-exterior.jpg',
+  // Exterior photograph supplied directly by the owner (October 2026).
+  quartersPhoto: '/assets/villa/frontview.webp',
   quartersPhotoAlt: 'RDA Kottawa government quarters exterior',
   // Add confirmed staff: { name: 'Full name', role: 'Designation', photo: '/assets/name.jpg', description: '' }
   staff: [],

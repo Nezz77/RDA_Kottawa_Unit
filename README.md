@@ -41,7 +41,7 @@ Edit **`src/config.js`**:
 | `unitAddress`, `unitMap` | Unit address and supplied location link. |
 | `quartersMap` | Supplied bungalow directions link. |
 | `unitMapEmbed`, `quartersMapEmbed` | Verified Google Maps embed URLs for the real interactive location panels. No API key required. |
-| `quartersPhoto` | Exterior photograph for the homepage feature, already set to the supplied Maps photo. |
+| `quartersPhoto` | Owner-supplied exterior photograph for the homepage feature. |
 | `staff` | Array of confirmed profiles. Each accepts `name`, `role`, optional `photo` and optional `description`. Empty shows a clear coming-soon state. |
 | `quartersPhotoAlt` | A useful description of the real photograph. |
 | `eligibility` | Confirmed rules on who can use the quarters. |
@@ -58,7 +58,7 @@ Rebuild after editing. Blank contact/booking fields display an honest “details
 - Automatic slideshows pause offscreen, in hidden tabs, during mouse hover and keyboard interaction. Dedicated play/pause controls and global motion preferences are supported.
 - Frosted glass navigation with grouped links, pill-shaped controls and a responsive staff directory.
 - Cascading illuminated focus cards controlled by “Connections in motion”.
-- The quarters page includes its own photographic tour, with portrait images displayed against matching blurred backgrounds.
+- The quarters page has a 17-photo room journal: living/dining, kitchen, two bedrooms with their attached bathrooms, and the garden. A chapter index, small descriptive captions, horizontally scrollable garden strip and keyboard/touch fullscreen viewer make each space easy to explore. Responsive local WebP assets are lazy-loaded below the hero.
 - Mobile menu, native accessible service dialogs, FAQ accordions, and keyboard-operated destination tabs.
 - Real interactive Google Maps views on both pages, using the two distinct place listings. Destination tabs crossfade between maps and update the text and directions link. Native map controls and Google attribution remain visible; Google Maps requires an internet connection. Inactive maps load only after first selection.
 - A 19-place destination explorer on `/quarters/#places`, with category filters, search, a six-card preview and expansion, local photographs, source credits, keyboard and touch gallery controls, and a selected-place Google Maps view.
@@ -67,7 +67,7 @@ Rebuild after editing. Blank contact/booking fields display an honest “details
 
 ## Content and imagery
 
-See `CONTENT-SOURCES.md`. The bungalow, bedroom and veranda photographs come from the owner-supplied Google Maps listing. They are stored locally, with a visible source link in each gallery. The gallery preserves portrait compositions against a blurred copy of the same photograph. Photo paths, descriptions and order are editable in `src/gallery.js`. The property completion and A/C details were provided by the project owner. No room counts, rates, opening times, amenities beyond A/C, or eligibility rules were invented.
+See `CONTENT-SOURCES.md`. The bungalow, bedroom and veranda photographs come from the owner-supplied Google Maps listing. They are stored locally, with a visible source link in each gallery. The gallery preserves portrait compositions against a blurred copy of the same photograph. Photo paths, descriptions and order are editable in `src/gallery.js`. The owner provided the property completion and A/C details and later confirmed two double bedrooms, each with an attached bathroom, plus a living area and kitchen. The 17-photo room journal uses owner-supplied images; its descriptions and sequence are in `src/villa-tour.js`, with presentation in `src/villa-tour.css`. No occupancy limit, rates, appliance inventory or new eligibility rules are inferred.
 
 The header, footer and browser tab use the official RDA logo image from the RDA Southern Province website, preserved in its original colours and white background. Both pages include the footer credit “Designed & Developed by FutureTech|NH”.
 
@@ -78,7 +78,9 @@ index.html            Unit page metadata and entry
 quarters/index.html   Quarters page metadata and entry
 src/config.js         Editable contacts and property information
 src/main.js           Page content and interactive behaviour
-src/gallery.js        Photo selection and accessible slideshow interactions
+src/gallery.js        Original Maps photo gallery and slideshow interactions
+src/villa-tour.js     Owner photo captions, room journal and fullscreen viewer
+src/villa-tour.css    Responsive room journal, garden strip and photo viewer
 src/maps.js           Real map views and destination switching
 src/places-data.js    Destination descriptions, pins and route snapshots
 src/place-photos.json Verified photo metadata, captions and source credits
