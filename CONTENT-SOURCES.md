@@ -190,3 +190,15 @@ The originals remain untouched. WebP copies and 640px responsive variants are st
 - Garden and exterior: `outside1.jpeg` through `outside7.jpeg`.
 
 The quarters hero now uses the owner’s front-view photograph. The previous A/C illustration is replaced by the room journal; A/C remains in the property description, amenity facts and FAQ. The homepage’s existing three-photo Maps gallery retains its original attribution. The room journal has an active chapter index, natural vertical scrolling, a horizontal garden strip, and a keyboard/touch photo viewer. It respects reduced motion and the website’s global animation setting.
+
+### Three additional interior photographs — 17 October 2026
+
+The owner supplied three further photographs directly in chat, bringing the villa tour to **20 photographs**. They appear with small captions in the living-area chapter and in the same full-screen viewer. The original WhatsApp attachments are unchanged; the website uses local WebP copies and 640px responsive versions.
+
+| Original attachment | Website asset | Description |
+| --- | --- | --- |
+| `PHOTO-2026-10-16-13-47-34.jpg` | `dining-tv.webp` | Timber dining table and wall-mounted television. |
+| `PHOTO-2026-10-16-13-48-05.jpg` | `interior-shrine.webp` | Wall-mounted Buddhist shrine beside the kitchen passage. |
+| `PHOTO-2026-10-16-13-48-15.jpg` | `living-wall-art.webp` | Three framed prints and a wall clock in the living area. |
+
+Text visible on the television belongs to its programme and is not used as a location or property description.

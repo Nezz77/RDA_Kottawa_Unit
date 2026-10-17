@@ -1,11 +1,14 @@
 import { icon } from './visuals.js';
 import './villa-tour.css';
 
-// Owner-supplied photographs. Original filenames are retained in the asset names.
+// Owner-supplied photographs. Source filenames and asset mappings are in CONTENT-SOURCES.md.
 export const villaPhotos = [
   { id: 'frontview', title: 'The villa', area: 'ARRIVAL', caption: 'White veranda columns, a tiled roof and a garden setting at Green Forest Villa.', alt: 'Front of Green Forest Villa with a covered veranda and surrounding lawn' },
   { id: 'livingarea', title: 'Living & dining', area: 'SHARED SPACES', caption: 'A shared living area with sofa seating and a dining table, all in one open room.', alt: 'Blue sofa seating and a wooden dining table in the villa living area' },
   { id: 'livingarea2', title: 'The living area', area: 'SHARED SPACES', caption: 'Another view of the sitting area, with daylight through the timber-framed windows.', alt: 'Living area seating beside the villa windows and front doorway' },
+  { id: 'dining-tv', title: 'The dining corner', area: 'SHARED SPACES', caption: 'The timber dining table sits beneath a wall-mounted television in the shared living space.', alt: 'Wooden dining table and chairs beneath a wall-mounted television in the villa' },
+  { id: 'interior-shrine', title: 'A quiet interior detail', area: 'SHARED SPACES', caption: 'A small Buddhist shrine on the interior wall, beside the passage towards the kitchen.', alt: 'Wooden wall-mounted Buddhist shrine beside the villa kitchen passage' },
+  { id: 'living-wall-art', title: 'Living-room décor', area: 'SHARED SPACES', caption: 'Three framed prints and a wall clock add detail to the living-area wall.', alt: 'Three framed botanical-style prints with a wall clock above them in the living area' },
   { id: 'back', title: 'Kitchen area', area: 'SHARED SPACES', caption: 'The kitchen area has a sink and a dark worktop beside the rear doorway.', alt: 'Kitchen sink and dark corner worktop beside a wooden rear door' },
   { id: 'bedroom1', title: 'Bedroom 1', area: 'ROOM ONE', caption: 'A double bed, warm timber furniture and a window bringing daylight into the first bedroom.', alt: 'First bedroom with a wooden double bed, coral bed linen and a window' },
   { id: 'bathroom1', title: 'Bathroom 1', area: 'ATTACHED TO BEDROOM 1', caption: 'The first bedroom’s attached bathroom, with tiled walls, a shower and toilet.', alt: 'First attached bathroom with tiled walls, a toilet and shower fittings' },
@@ -52,6 +55,7 @@ export function villaTour() {
         <article class="villa-chapter" id="villa-living" aria-label="Living area and kitchen">
           ${chapterHeading('01', 'THE SHARED SPACES', 'Room to <span class="serif">come together.</span>', 'A living area for time together, a dining table for shared meals, and a kitchen area at the rear of the villa.')}
           <div class="villa-living-pair">${frame('livingarea')}${frame('livingarea2', 'villa-offset')}</div>
+          <section class="villa-interior-details" aria-labelledby="villa-interior-title"><h4 id="villa-interior-title" class="eyebrow">A FEW MORE DETAILS, CLOSE UP</h4><div class="villa-interior-layout">${frame('dining-tv')}<div class="villa-interior-pair">${frame('interior-shrine')}${frame('living-wall-art')}</div></div></section>
           <div class="villa-kitchen-row">${frame('back')}<div class="villa-kitchen-copy reveal"><span class="eyebrow">A PRACTICAL LITTLE CORNER</span><h4>The <span class="serif">kitchen area.</span></h4><p>A sink and worktop provide a separate space away from the sitting area. The rear doorway brings in light.</p><span class="villa-small-note">Kitchen area · at the rear of the villa.</span></div></div>
         </article>
         <article class="villa-chapter" id="villa-bedroom-one" aria-label="Bedroom one and its attached bathroom">
